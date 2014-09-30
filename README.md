@@ -7,6 +7,7 @@ FCNPC is a plugin where you can create controllable NPCs in your server! It is s
 * OrMisicL - Whole plugin, he is the original author!
 * Emci_Funtik - 0.3z-R4 support!
 * Lorenc_/Chris42O - Updating the memory addresses regularly!
+* kurta999 - YSF code snippets!
 * MyU - Sharp intelligent mind!
 
 ## Why this is made
