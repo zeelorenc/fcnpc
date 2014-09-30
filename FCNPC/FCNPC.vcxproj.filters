@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{74c99f5f-c2fa-4372-8cbf-8d7211048bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\amx">
+      <UniqueIdentifier>{a29a61c2-b96a-4f94-bbaa-c40aa9c02429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{b2b22c4f-6248-4003-be25-5ca64132c478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{7526637f-8b5c-4c32-84c4-617ac18782bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\SAMP">
+      <UniqueIdentifier>{743cd0ca-7264-4973-b040-0afdbe0631e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\SA">
+      <UniqueIdentifier>{9f3a3c99-0626-4702-9527-1a3e3eb7f9d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{49456f9f-9ca3-4a4a-8257-6217a6e3a15d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{4d19d3a5-aa82-4d35-8992-a1fff4fda170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting">
+      <UniqueIdentifier>{1fd1cad8-4cd3-4442-af56-a4b6a581eb15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nodes">
+      <UniqueIdentifier>{17b48c7a-3f0a-452e-9793-7d6e0d821678}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDK\amxplugin.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\amx\getch.c">
+      <Filter>SDK\amx</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Address.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadFunctions.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponInfo.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMPFunctions.cpp">
+      <Filter>Server\SAMP</Filter>
+    </ClCompile>
+    <ClCompile Include="CallbackManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Natives.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Playback.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="ZMap.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK\plugin.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\plugincommon.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\amx\amx.h">
+      <Filter>SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\amx\getch.h">
+      <Filter>SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\amx\sclinux.h">
+      <Filter>SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Address.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Patches.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadFunctions.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponInfo.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMPFunctions.h">
+      <Filter>Server\SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMPPlayer.h">
+      <Filter>Server\SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMPPlayerPool.h">
+      <Filter>Server\SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMPRakPeer.h">
+      <Filter>Server\SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMPRPCParams.h">
+      <Filter>Server\SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMPServer.h">
+      <Filter>Server\SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMPVehicle.h">
+      <Filter>Server\SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMPVehiclePool.h">
+      <Filter>Server\SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SANode.h">
+      <Filter>Server\SA</Filter>
+    </ClInclude>
+    <ClInclude Include="CallbackManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Natives.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Playback.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="ZMap.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Exports.def" />
+  </ItemGroup>
+</Project>
