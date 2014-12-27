@@ -14,7 +14,7 @@
 #include <math.h>
 
 // General definitions
-#define VERSION				"0.1 B12"
+#define VERSION				"1.0.1"
 #define MAX_PLAYERS			500
 #define MAX_VEHICLES		2000
 #define MAX_NODES			64
