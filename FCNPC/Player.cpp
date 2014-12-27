@@ -338,11 +338,11 @@ bool CPlayer::SetState(BYTE byteState)
 void CPlayer::Kill(int iKillerId, int iWeapon)
 {
 	// Stop recording any playback
-	if(m_bRecording)
+	if (m_bRecording)
 		StopRecordingPlayback();
 
 	// Stop playing any node
-	if(m_bPlayingNode)
+	if (m_bPlayingNode)
 		StopPlayingNode();
 
 	// Stop moving and aiming
@@ -350,6 +350,8 @@ void CPlayer::Kill(int iKillerId, int iWeapon)
 	StopAim();
 	// Kill the NPC
 	CSAMPFunctions::KillPlayer(m_playerId, iWeapon, iKillerId);
+	// Set the NPC state
+	SetState(PLAYER_STATE_DEAD);
 	// Call the NPC death callback
 	CCallbackManager::OnDeath((int)m_playerId, iKillerId, iWeapon);
 }
