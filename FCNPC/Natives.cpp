@@ -625,6 +625,13 @@ cell AMX_NATIVE_CALL CNatives::FCNPC_AimAt(AMX *amx, cell *params)
 	if(!pServer->GetPlayerManager()->IsPlayerConnected(iNPCId))
 		return 0;
 
+        pServer->GetPlayerManager()->GetAt(iNPCId)->GetPosition(&vecPosition);
+        
+        if(amx_ftoc(vecPosition.fX) >= fX+30.0 || amx_ftoc(vecPosition.fY) >= fY+30.0)
+        {
+        	// The coordinates are too far away to shoot at.
+                return 0;
+        }
 	// Set the player aiming
 	pServer->GetPlayerManager()->GetAt(iNPCId)->AimAt(CVector3(fX, fY, fZ), !iShoot ? false : true);
 	return 1;
